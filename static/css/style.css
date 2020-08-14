@@ -85,3 +85,7 @@ details > summary::-webkit-details-marker { /* to remove triangle  */
   display: inline-flex;
   display: none;
 }
+
+.circular--square {
+  border-radius: 50%;
+}
