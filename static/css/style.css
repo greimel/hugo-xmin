@@ -10,7 +10,7 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
+  /*background: #eee; */
   padding: 5px;
   border-radius: 5px;
 }
@@ -49,3 +49,39 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+details {
+  display: inline-flex;
+/*  color: red; */
+  padding: 0;
+/*  background-color: #f1f1f1; */
+/*  cursor: pointer; */
+
+}
+
+details > p {
+  display: inline-flex;
+/*  color: red; */
+  padding: 0;
+  background-color: #f1f1f1;
+/*  cursor: pointer; */
+
+}
+
+details > summary {
+  display: inline-flex;
+  background: none;
+  color: green;
+  list-style: none; /* to remove triangle */
+  outline: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker { /* to remove triangle  */
+  display: inline-flex;
+  display: none;
+}
